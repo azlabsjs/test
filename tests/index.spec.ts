@@ -1,8 +1,8 @@
 
-import { SayHello } from '../src';
+import { greet } from '../src';
 
 describe('SayHello Tests', () => {
   it('Greet the user provided name', () => {
-    expect(SayHello('Bertrand')).toEqual('Hello, Bertrand');
+    expect(greet('Bertrand')).toEqual('Hello, Bertrand');
   });
 });
