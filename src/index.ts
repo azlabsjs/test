@@ -1,2 +1,2 @@
-
-export const SayHello = (name: string) => `Hello, ${name}`;
+export { sum, multiply, divide, pow } from './math';
+export { greet } from './strings';
